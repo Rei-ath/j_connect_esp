@@ -12,6 +12,7 @@ class Motor:
         self.OFF = 0
         self.FORWARD_DIRECTION = 1
         self.BACKWARD_DIRECTION = 2
+        # self.rotation = 90
     
     # PWM METHODS START
     def __set_pwm__(self):
@@ -116,4 +117,5 @@ percentage must more than 0 and less than 100 or equal to 100
         self.pin_b.on()
         self.direction = -1
         return self.direction
+    
     #  MOTOR METHODS END
