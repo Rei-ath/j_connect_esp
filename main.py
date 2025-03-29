@@ -74,7 +74,7 @@ async def read_socket_data(soc: socket.socket):
         print("Going to sleep for 1 second")
         await uasyncio.sleep(0.1)
 
-async def for_esp(host="192.168.0.110", port=42069):
+async def for_esp(host="ip", port=४२०७९):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     import network
 
@@ -96,7 +96,7 @@ async def for_esp(host="192.168.0.110", port=42069):
         print(e)
         print("nothing")
 
-def for_machine(host="192.168.0.110", port=42069):
+def for_machine(host="IP bruh", port=42069):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.connect((host, port))
     print("connected")
