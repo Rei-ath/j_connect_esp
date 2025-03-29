@@ -15,7 +15,7 @@ def do_connect():
         print('Connecting to network...')
         sta_if.active(True)
         print(sta_if.ifconfig())
-        sta_if.connect('Om so f1', 'Guru@123')  # Replace with your WiFi credentials
+        sta_if.connect('wiwi','password📐 )  # Replace with your WiFi credentials
         while not sta_if.isconnected():
             print("Connecting...")
             time.sleep(2)
